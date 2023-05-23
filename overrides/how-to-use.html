@@ -159,7 +159,7 @@
                 <div class="ta-c">
                     <img class="hide-mobile" src="../img/trulens-diagram.svg" alt="TruLens diagram" />
                     <img class="hide-desktop" src="../img/trulens-diagram-mob.png" alt="TruLens diagram vertical" />
-                    <p class="mt-lg"><strong>Figure 1:</strong>The workflow for integrating TruLens into LLM app development</p>
+                    <p class="mt-lg"><strong>Figure 1:</strong> The workflow for integrating TruLens into LLM app development</p>
                 </div>
 
             </section>
@@ -182,7 +182,7 @@
                     </div>
                     <div class="full-image">
                         <img class="" src="../img/how-to-use/how-to-use-trulens-2.png" alt="How to use TruLens Figure 2" />
-                        <p class="mt-lg"><strong>Figure 2:</strong>Code snippet of chained QA LLM app. </p>
+                        <p class="mt-lg"><strong>Figure 2:</strong> Code snippet of chained QA LLM app. </p>
                     </div>
                 </div>
             </section>
@@ -199,7 +199,7 @@
                     </div>
                     <div class="full-image">
                         <img class="" src="../img/how-to-use/how-to-use-trulens-3.png" alt="How to use TruLens Figure 3" />
-                        <p class="mt-lg"><strong>Figure 3:</strong>Code snippet for connecting the ConversationalRetrievalChain from Figure 2 to TruLens and logging the inputs and outputs</p>
+                        <p class="mt-lg"><strong>Figure 3:</strong> Code snippet for connecting the ConversationalRetrievalChain from Figure 2 to TruLens and logging the inputs and outputs</p>
                     </div>
                 </div>
             </section>
@@ -225,7 +225,7 @@
                     </div>
                     <div>
                         <img class="" src="../img/how-to-use/how-to-use-trulens-4.png" alt="How to use TruLens Figure 4" />
-                        <p class="mt-lg mb-lg"><strong>Figure 4:</strong>Code snippet for running feedback functions to check for language match & relevance </p>
+                        <p class="mt-lg mb-lg"><strong>Figure 4:</strong> Code snippet for running feedback functions to check for language match & relevance </p>
                         <p class="mb-md">
                             Note that feedback functions are a general abstraction. They can be implemented in a number of ways, including but not limited to using modern LLMs, previous generation of BERT-style models, as well as with simpler rule based systems in some cases. We refer the interested reader to our <a href="https://truera.com/whats-missing-to-evaluate-foundation-models-at-scale/" target="_blank">article on feedback functions</a> for more detail. 
                         </p>
@@ -259,9 +259,9 @@
                     </div>
                     <div>
                         <img class="" src="../img/how-to-use/how-to-use-trulens-5.png" alt="How to use TruLens Figure 5" />
-                        <p class="mt-lg mb-lg"><strong>Figure 5:</strong>The Leaderboard shows the quality of chains across records as scored by various feedback functions.</p>
+                        <p class="mt-lg mb-lg"><strong>Figure 5:</strong> The Leaderboard shows the quality of chains across records as scored by various feedback functions.</p>
                         <img class="" src="../img/how-to-use/how-to-use-trulens-6.png" alt="How to use TruLens Figure 6" />
-                        <p class="mt-lg mb-lg"><strong>Figure 6:</strong>The Evaluations table provides a drill down of the evaluation at the record level. Note that on the language match test, this chain does not perform well when asked questions in German (the first 3 records above where the responses are in English instead of German) whereas it correctly responds in Spanish when asked a question in Spanish (record 4 above). </p>
+                        <p class="mt-lg mb-lg"><strong>Figure 6:</strong> The Evaluations table provides a drill down of the evaluation at the record level. Note that on the language match test, this chain does not perform well when asked questions in German (the first 3 records above where the responses are in English instead of German) whereas it correctly responds in Spanish when asked a question in Spanish (record 4 above). </p>
                     </div>
                     
                 </div>
@@ -281,15 +281,15 @@
                         </p>
                         <img class="" src="../img/how-to-use/how-to-use-trulens-7.png" alt="How to use TruLens Figure 7" />
                         <p class="mt-lg mb-lg"><strong>Figure 7:</strong>Adjusted prompt to address language match failure mode. Note the explicit instruction to answer in the same language as the question.</p>
-                    </div>
-                    <div>
                         <p class="mb-md">
                             To address the irrelevant chunks failure mode, you adjust your prompt template as shown in Figure 8. Running the evaluation again on the new version of the app (Chain 2), you see an improvement on the leaderboard –  the feedback function score for qs_relevance increases significantly (see Figure 9).    
                         </p>
+                    </div>
+                    <div>
                         <img class="" src="../img/how-to-use/how-to-use-trulens-8.png" alt="How to use TruLens Figure 8" />
-                        <p class="mt-lg mb-lg"><strong>Figure 8:</strong>Adjusted prompt to address individual chunk relevance failure mode. </p>
+                        <p class="mt-lg mb-lg"><strong>Figure 8:</strong> Adjusted prompt to address individual chunk relevance failure mode. </p>
                         <img class="" src="../img/how-to-use/how-to-use-trulens-9.png" alt="How to use TruLens Figure 9" />
-                        <p class="mt-lg mb-lg"><strong>Figure 9:</strong>The Leaderboard shows the quality of chains across records as scored by various feedback functions.</p>
+                        <p class="mt-lg mb-lg"><strong>Figure 9:</strong> The Leaderboard shows the quality of chains across records as scored by various feedback functions.</p>
                     </div>
                     
                 </div>
