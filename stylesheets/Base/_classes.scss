@@ -109,6 +109,10 @@ $color-types: (
             > * {
                 flex: 1 1 20rem;
             }
+
+            @include res-max-tablet {
+                gap: 0.5rem;
+            }
         }
         
         &-2 {
@@ -118,6 +122,10 @@ $color-types: (
 
             > * {
                 flex: 1 1 30rem;
+            }
+
+            @include res-max-tablet {
+                gap: 0.5rem;
             }
         }
     }
@@ -197,6 +205,13 @@ $color-types: (
             }
             
             &b-xxl, &b-xxl-mob {
+                margin-bottom: 2.5rem;
+            }
+            &t-xll, &t-xll-mob {
+                margin-top: 2.5rem;
+            }
+            
+            &b-xll, &b-xll-mob {
                 margin-bottom: 2.5rem;
             }
         }

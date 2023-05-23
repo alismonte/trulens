@@ -91,5 +91,25 @@
         &:last-of-type {
             padding-bottom:4rem;
         }
+
+        @include res-max-tablet {
+            &.box, &.box-violet {
+                padding:1.25rem !important;
+            }
+            &.full-image {
+                padding:0px 0px 1.25rem 1.25rem;
+            }
+            &.box.teal {
+                padding-top:2.5rem !important;
+
+                &:before {
+                    left:1.25rem;
+                    top:1.25rem;
+                }
+            }
+            &:last-of-type {
+                padding-bottom:1.25rem;
+            }
+        }
     }
 }
