@@ -211,6 +211,14 @@ p {
   transition: background-color .3s ease-in-out; }
   .header__btn:hover {
     background-color: #98e2dd; }
+  .header__btn.btn-secondary {
+    background-color: #0A2C37;
+    margin-left: 1.25rem; }
+    .header__btn.btn-secondary:hover {
+      background-color: #0e3d4d; }
+    .header__btn.btn-secondary .header__btn--text {
+      color: #FFFFFF;
+      border-left: 1px solid rgba(255, 255, 255, 0.25); }
   .header__btn.hero__btn {
     margin-bottom: 4.8rem; }
   .header__btn--text {
@@ -229,8 +237,11 @@ p {
       margin-bottom: 0rem;
       width: 100%;
       padding-right: 2rem; }
+      .header__btn.btn-secondary {
+        margin-left: 0px;
+        background-color: #0e3d4d; }
       .header__btn.hero__btn {
-        margin-bottom: 2rem; } }
+        margin-bottom: 1.5rem; } }
 
 .btn__shadow {
   display: grid;
