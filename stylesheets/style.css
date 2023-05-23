@@ -482,7 +482,10 @@ p {
 .section--contact {
   text-align: center; }
 .section img {
-  max-width: 100%; }
+  max-width: 100%;
+  box-shadow: 0px 0px 30px 10px rgba(45, 115, 109, 0.1); }
+.section p + img {
+  margin-top: 1rem; }
 
 header {
   z-index: 1; }
